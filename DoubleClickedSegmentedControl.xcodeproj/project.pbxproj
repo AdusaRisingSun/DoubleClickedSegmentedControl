@@ -15,6 +15,7 @@
 		39AA67FF1B94400F00495B57 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 39AA67FE1B94400F00495B57 /* Images.xcassets */; };
 		39AA68021B94400F00495B57 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 39AA68001B94400F00495B57 /* LaunchScreen.xib */; };
 		39AA680E1B94400F00495B57 /* DoubleClickedSegmentedControlTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 39AA680D1B94400F00495B57 /* DoubleClickedSegmentedControlTests.m */; };
+		39AA68191B94447800495B57 /* DoubleClickedSegmented.m in Sources */ = {isa = PBXBuildFile; fileRef = 39AA68181B94447800495B57 /* DoubleClickedSegmented.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +43,8 @@
 		39AA68071B94400F00495B57 /* DoubleClickedSegmentedControlTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DoubleClickedSegmentedControlTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		39AA680C1B94400F00495B57 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		39AA680D1B94400F00495B57 /* DoubleClickedSegmentedControlTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DoubleClickedSegmentedControlTests.m; sourceTree = "<group>"; };
+		39AA68171B94447800495B57 /* DoubleClickedSegmented.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DoubleClickedSegmented.h; sourceTree = "<group>"; };
+		39AA68181B94447800495B57 /* DoubleClickedSegmented.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DoubleClickedSegmented.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +90,8 @@
 				39AA67F31B94400F00495B57 /* AppDelegate.m */,
 				39AA67F81B94400F00495B57 /* ViewController.h */,
 				39AA67F91B94400F00495B57 /* ViewController.m */,
+				39AA68171B94447800495B57 /* DoubleClickedSegmented.h */,
+				39AA68181B94447800495B57 /* DoubleClickedSegmented.m */,
 				39AA67FB1B94400F00495B57 /* Main.storyboard */,
 				39AA67FE1B94400F00495B57 /* Images.xcassets */,
 				39AA68001B94400F00495B57 /* LaunchScreen.xib */,
@@ -222,6 +227,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				39AA68191B94447800495B57 /* DoubleClickedSegmented.m in Sources */,
 				39AA67F41B94400F00495B57 /* AppDelegate.m in Sources */,
 				39AA67F11B94400F00495B57 /* main.m in Sources */,
 				39AA67FA1B94400F00495B57 /* ViewController.m in Sources */,

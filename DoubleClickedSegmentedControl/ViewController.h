@@ -7,8 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
-
-@interface ViewController : UIViewController
+#import "DoubleClickedSegmented.h"
+@interface ViewController : UIViewController<DoubleClickedSegmentedDelegate>
 
 
 @end
